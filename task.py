@@ -73,22 +73,22 @@ result_list =  []
 result_list2 = []
 for x in teacher_names():
     data = {
-        'teachers' : x
+        'teachers':x
 
     }
     result_list.append(data)
-with open('names.csv', 'w', newline='') as csvfile:
+with open('names.csv', 'w') as csvfile:
     fieldnames=['teachers']
     writer=csv.DictWriter(csvfile, fieldnames=fieldnames)
     writer.writeheader()
     writer.writerows(result_list)
 for z in teacher_names_inside_links():
     data2 = {
-        'teachers' : z
+        'teachers':z
 
     }
     result_list2.append(data2)
-with open('names2.csv', 'w', newline='') as csvfile:
+with open('names2.csv', 'w') as csvfile:
     fieldnames=['teachers']
     writer=csv.DictWriter(csvfile, fieldnames=fieldnames)
     writer.writeheader()
