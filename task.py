@@ -77,8 +77,7 @@ def teacher_names_inside_links():
         except:
             pass
     return clearlist2
-#teacher_names()
-#teacher_names_inside_links()
+
 
 result_list =  []
 result_list2 = []
