@@ -12,6 +12,8 @@ def get_urls():
         href = link.get('href')
         venu_list.append(href)
     return venu_list
+
+
 def get_inside_urls():
     venu_list2 = []
     for i in get_urls():
@@ -23,6 +25,8 @@ def get_inside_urls():
             href3 = alllinks.get('href')
             venu_list2.append(href3)
     return venu_list2
+
+
 def teacher_names():
     mylist1 = []
     clearlist1 = []
@@ -43,6 +47,8 @@ def teacher_names():
         except:
             pass
     return clearlist1
+
+
 def teacher_names_inside_links():
     mylist2 = []
     clearlist2 = []
