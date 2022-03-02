@@ -1,3 +1,1 @@
-# Web-Scraping-From-Edugech
-
-Extract data in csv file
+# This script takes specific data from a specific website
